@@ -1,0 +1,35 @@
+.card {
+    border-radius: 5.542px;
+    background: linear-gradient(228deg, #DBDBDC 12.68%, #DDDDDE 26.4%, #E7E7E7 36.51%, #F6F6F6 45.17%, #FFF 48.78%, #FAFAFB 50.23%, #E1E1E2 63.95%, #D1D2D3 75.5%, #CCCDCE 84.88%), linear-gradient(56deg, #CBCBCB 8.69%, #DCDCDC 30.8%, #F8F8F8 52.92%, #DCDCDC 75.04%, #CBCBCB 97.16%);
+    box-shadow: 0px 0.575px 8.574px 0px rgba(0, 0, 0, 0.20) inset, 3.453px 2.302px 7.596px 0px rgba(255, 255, 255, 0.50) inset;
+}
+
+.card.pan,
+.card.name,
+.card.expiration-date,
+.card.security-code,
+.card.cvv_expiration_time,
+.card.pin {
+    color: #2F2F30;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.card.pan.copy-icon {
+    color: #233BC1;
+}
+
+.list .pin {
+	margin-top: 0px;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 6px;
+	font-weight: bold;
+}
+
+.list .pin .label {
+	display: none
+}
